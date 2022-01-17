@@ -5,6 +5,8 @@
     "description": "Simple Express & Typescript boilerplate",
     "repository": "https://github.com/CruzNadin/express-swagger-autogenerator.git",
     "main": "dist/server.js",
+    "license": "MIT license",
+    "private": true,
     "engines": {
         "node": "14.x"
     },

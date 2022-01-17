@@ -3,9 +3,9 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';
 import morgan from 'morgan';
-import swaggerDocument from '../docs/api-spec.json';
 import routes from './routes';
 
+const swaggerDocument = require('../docs/api-spec.json');
 const swaggerUi = require('swagger-ui-express');
 const app = express();
 
